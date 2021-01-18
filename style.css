@@ -1,0 +1,38 @@
+body {
+   height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.list-wrapper {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100vh;
+   width: 500px;
+   background-color: rgba(110, 32, 32, 0.562);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.options {
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 100vh;
+   width: 500px;
+   background-color: rgba(57, 156, 18, 0.562);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.remove {
+   width: 70px;   
+   height: 40px;
+}
+
+
+canvas {
+   border: 1px dashed black;
+}
