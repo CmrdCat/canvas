@@ -2,23 +2,26 @@
 <html>
 <head>
    <meta charset="utf-8">
-   <title>Hello World</title>
+   <title>ADMIN</title>
    <link rel="stylesheet" href="style.css">
 </head>
 <script src="pixi.min.js"></script>
 <body>
-   <div id="display">
+   <div class="links">
+      <a href="index.html">ADMIN Window</a>
+      <a href="user.html">USER Window</a>
    </div>
-
    <div class="list-wrapper">
       <ul class="list"></ul>
    </div>
-   <div class="options">
+   <div class="about-item hide">
       <p class="about"></p>
       <button class="remove">Remove</button>
+      <button class="save">Save</button>
    </div>
-   <input type="checkbox" class="checkbox">
-
-   <script src="app.js"></script>
+   <form class="buttons-wrapper">
+      <div class="buttons-container"></div>
+   </form>
+   <script src="admin.js"></script>
 </body>
 </html>
